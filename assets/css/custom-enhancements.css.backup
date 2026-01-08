@@ -1,0 +1,542 @@
+/* Enhanced Navigation Dropdown Styles */
+.navmenu .dropdown ul {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  min-width: 280px;
+  padding: 12px 0;
+}
+
+.navmenu .dropdown ul li {
+  min-width: 280px;
+  transition: all 0.3s ease;
+}
+
+.navmenu .dropdown ul a {
+  padding: 12px 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.3s ease;
+  border-left: 3px solid transparent;
+}
+
+.navmenu .dropdown ul a i {
+  font-size: 18px;
+  width: 24px;
+  text-align: center;
+  color: var(--accent-color);
+  transition: transform 0.3s ease;
+}
+
+.navmenu .dropdown ul a:hover,
+.navmenu .dropdown ul .active,
+.navmenu .dropdown ul li:hover > a {
+  background-color: rgba(248, 93, 35, 0.05);
+  border-left-color: var(--accent-color);
+  padding-left: 24px;
+}
+
+.navmenu .dropdown ul a:hover i,
+.navmenu .dropdown ul .active i {
+  transform: scale(1.1);
+}
+
+/* Smooth dropdown animation */
+.navmenu .dropdown ul {
+  animation: fadeInDown 0.3s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced CTA Button */
+.btn-getstarted {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(248, 93, 35, 0.2);
+}
+
+.btn-getstarted:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(248, 93, 35, 0.3);
+}
+
+/* Enhanced Service Cards */
+.service-card {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+  transition: all 0.4s ease;
+}
+
+.service-card:hover .service-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+/* Enhanced Feature Boxes */
+.feature-box {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  padding: 30px;
+  height: 100%;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.icon-container {
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover .icon-container {
+  transform: scale(1.05);
+}
+
+/* Enhanced Stats Cards */
+.stats-card {
+  transition: all 0.3s ease;
+  border-radius: 12px;
+}
+
+.stats-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced breadcrumbs */
+.breadcrumbs {
+  transition: all 0.3s ease;
+}
+
+.breadcrumbs a {
+  transition: all 0.3s ease;
+}
+
+.breadcrumbs a:hover {
+  color: var(--accent-color);
+  transform: translateX(2px);
+  display: inline-block;
+}
+
+/* Mobile menu enhancements */
+@media (max-width: 1199px) {
+  .navmenu .dropdown ul {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+  }
+
+  .navmenu .dropdown ul a {
+    border-left: none;
+    padding-left: 30px;
+  }
+
+  .navmenu .dropdown ul a:hover {
+    padding-left: 35px;
+  }
+}
+
+/* Enhanced page transitions */
+.main {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Enhanced hero section */
+.hero-content {
+  animation: slideInLeft 0.8s ease-out;
+}
+
+.hero-image-wrapper {
+  animation: slideInRight 0.8s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Enhanced buttons */
+.btn-primary,
+.btn-discover,
+.read-more-btn {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-primary::before,
+.btn-discover::before,
+.read-more-btn::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.btn-primary:hover::before,
+.btn-discover:hover::before,
+.read-more-btn:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Enhanced progress bars */
+.progress-bar {
+  transition: width 1.5s ease-in-out;
+}
+
+/* Loading animation for images */
+img {
+  transition: opacity 0.3s ease;
+}
+
+img:not([src]) {
+  opacity: 0;
+}
+
+/* Enhanced focus states for accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Improved link hover effects */
+a {
+  transition: all 0.3s ease;
+}
+
+/* Enhanced section spacing */
+.section {
+  padding: 80px 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0;
+  }
+}
+
+.feature-bo
+}
+enter;
+  }-content: cjustify
+    : center;-align;
+    text: 100%width {
+    btnro-cta . 
+  .he
+  }
+ umn;rection: colex-di  fl
+  .hero-cta {
+  
+  }
+  : 2rem;font-size   
+ 1 {ent h-cont
+  .heroh: 768px) {widtax-(mia }
+
+@med }
+0px;
+ ax-width: 20
+    muto;gin: 20px amar;
+    tion: staticosift {
+    pm-lettobotat-card.  .st,
+p-righstat-card.to }
+  
+  .
+ .5rem;nt-size: 2fo  1 {
+  content h
+  .hero-992px) {dth: -wia (maxts */
+@medienadjustm Responsive 
+/*
+}
+}
+  teY(-10px);m: translatransfor
+    }
+  50% {ateY(0);
+  ansl trnsform:  tra
+  , 100% { {
+  0%atlorames f}
+
+@keyfty: 0.2;
+ opaci;
+ olor)r(--accent-clor: va5rem;
+  co1.e: t-siz0px;
+  fonright: 1
+  x;10p top: lute;
+ bso: aition
+  pos { .stat-iconat-cardx;
+}
+
+.stop: 5p margin-t66;
+ olor: #6em;
+  c-size: 0.85rel {
+  fonttat-labard .s}
+
+.stat-c: 1;
+ line-heightolor);
+ accent-c--olor: var(;
+  c700ht:  font-weige: 2rem;
+   font-sizt-value {
+-card .staat
+
+.st20px;
+}
+  left: -om: 20px; botteft {
+ d.bottom-lat-car
+.st0px;
+}
+ght: -2;
+  ri0pxp: 2ight {
+  to-card.top-r}
+
+.stat infinite;
+ase-in-outloat 3s e fanimation:2);
+  0.(0, 0, 0, 0px rgbapx 3adow: 0 10
+  box-shs: 12px;order-radiu: 20px;
+  b
+  padding: #fff; background
+ bsolute;sition: acard {
+  po
+
+.stat-0, 0.3);
+}a(0, 0, rgb60px ow: 0 20px 
+  box-shads: 20px;border-radiue {
+  
+.hero-imag
+}
+e;n: relativpositior {
+  mage-wrappero-i);
+}
+
+.hecolort- var(--accencolor:ver {
+  btn-link:ho .ro-cta
+}
+
+.hex; 8pp:
+  ga;: centergn-items  aliex;
+play: fl  dis
+one;: n-decoration
+  textolor: #fff;  clink {
+btn-hero-cta ..4);
+}
+
+.35, 0(248, 93, barg0px x 26p 0 hadow: box-seY(-2px);
+ anslatform: trnsra;
+  t04d1f #e background:r {
+ verimary:ho .btn-p
+
+.hero-cta, 0.3);
+} 3593,rgba(248, 5px  4px 1ox-shadow: 0#fff;
+  blor:   coe;
+ border: nonor);
+ ent-colvar(--accground: backary {
+  n-primta .btero-c;
+}
+
+.h 0.3s easensition: allra 50px;
+  tradius:
+  border-eight: 600;ont-w
+  fe: 16px;-sizx;
+  fontng: 14px 32paddi{
+  pro-cta .btn 
+
+.hex;
+} 30pargin-top:
+  mwrap;ap: wrflex- 15px;
+  ;
+  gap: flex  display:{
+ero-cta }
+
+.h0px;
+ont-size: 2);
+  florccent-cor(--a: vaor  col {
+res li ihero-featu
+
+.em;
+}-size: 1ront
+  f: 12px;bottom  margin-
+ap: 12px; g
+ enter;tems: c
+  align-ilay: flex;
+  disp {atures li
+
+.hero-fe 30px 0;
+}n:
+  marging: 0;e;
+  paddit-style: nonres {
+  lisero-featu.9;
+}
+
+.hacity: 030px;
+  op: ottomin-b6;
+  margheight: 1. line- 1.1rem;
+ size:font-
+  ad {ontent .lero-c;
+}
+
+.he relativesition:  poor);
+t-colar(--accen
+  color: vhlight {t h1 .higro-contenx;
+}
+
+.he20pin-bottom: 1.2;
+  marght: heigline-ht: 700;
+  font-weig: 3rem;
+   font-size h1 {
+ entero-cont}
+
+.hze: 16px;
+ont-sig i {
+  ftao-
+}
+
+.herr);coloaccent-or: var(--0;
+  col50ght: nt-weipx;
+  fosize: 14t-
+  fon: 20px;in-bottom0px;
+  margs: 5iu border-rad8px 16px;
+ dding: 
+  pa3, 35, 0.3);a(248, 9d rgbx soliorder: 1p, 0.1);
+  b 35 93,: rgba(248,undackgrop: 8px;
+  bnter;
+  gas: ceign-itemx;
+  ale-fleinlin
+  display: hero-tag {on */
+. Sectieroced H
+/* Enhan 0.2);
+}
+55, 255, 2(255,d rgbam: 1px solitoder-botborr-top {
+  ooter .foote2);
+}
+
+#f0, 0, 0. rgba(0, px 12px 0 4hadow: box-s);
+ Y(-3px translateform:ns25);
+  tra255, 255, 0. rgba(255, ackground:
+  b { a:hoverial-links#footer .socase;
+}
+
+s e0.3tion: all ansi  tr5, 0.2);
+ 255, 25a(255,rgbsolid border: 1px f;
+  ffffcolor: #f  15);
+255, 0.255, 255, ound: rgba(
+  backgr-links a {social
+#footer .nt;
+}
+f !importa  color: #ff8px;
+dding-left: 
+  paopacity: 1; {
+  s a:hovernker-liooter .fot
+#fo
+se;
+}s ea.3tion: all 0
+  transicity: 0.9;{
+  opanks a footer-li .footernt;
+}
+
+#fff !importafff color: #name {
+ t .sitecopyrighter .p,
+#foopyright .coter #foo,
+ter-links aer .fooong,
+#foottr s-contacter .footert p,
+#footntacr-cofooteer .,
+#footer-links h4ooter .foot,
+#fameut .sitener-abofootter .
+}
+
+#foont;fff !importa#fffolor: 
+  cant;!import7a47 100%) 3 0%, #ff, #f85d2dient(135degnear-grad: liun  backgroooter {
+footer.ftyling */
+#ooter S
+/* Orange F0.1);
+}
+a(0, 0, 0,  24px rgbdow: 0 12px  box-sha;
+px)ranslateY(-5ransform: t
+  tver {-item:hoimonialest
+
+.t16px;
+}s: order-radiuease;
+  bn: all 0.3s io{
+  transittem al-ionitestim
+.als */estimoniced T
+
+/* Enhan;
+}, 0, 0, 0.1) rgba(012px 24pxhadow: 0 box-s
+  (-5px);slateYorm: tranansf  trhover {
+ts-card:}
+
+.sta 12px;
+s:iur-rade;
+  borde eas3son: all 0.itid {
+  transcar
+.stats- */Cardsats nhanced St E
+
+/*(1.1);
+}caleransform: sainer {
+  t-contconver .iure-box:ho
+.featease;
+}
+all 0.3s ition:   trans
+r {on-containe
+}
+
+.ic 0.1);0,, px rgba(0, 0px 24hadow: 0 12box-s
+  ateY(-5px);m: translfor {
+  transx:hover
