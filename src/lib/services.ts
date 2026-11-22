@@ -39,23 +39,56 @@ export const services: Service[] = [
     ],
     featuresTitle: "What we build",
     features: [
-      { title: "Custom design", text: "Brand-focused designs tailored to your identity and audience, so your website stands out from the competition." },
-      { title: "E-commerce solutions", text: "Online stores with secure payment processing, inventory management and smooth shopping experiences." },
-      { title: "CMS integration", text: "Easy-to-use content management so you can update your site without technical knowledge." },
-      { title: "Web applications", text: "Custom web applications built to streamline your business processes and serve your users." },
+      {
+        title: "Custom design",
+        text: "Brand-focused designs tailored to your identity and audience, so your website stands out from the competition.",
+      },
+      {
+        title: "E-commerce solutions",
+        text: "Online stores with secure payment processing, inventory management and smooth shopping experiences.",
+      },
+      {
+        title: "CMS integration",
+        text: "Easy-to-use content management so you can update your site without technical knowledge.",
+      },
+      {
+        title: "Web applications",
+        text: "Custom web applications built to streamline your business processes and serve your users.",
+      },
     ],
     processTitle: "How we work",
     process: [
-      { title: "Discovery", text: "We analyse your business goals, audience and requirements to create a clear project roadmap." },
-      { title: "Design", text: "Wireframes and mockups bring your vision to life with an intuitive, engaging user experience." },
-      { title: "Development", text: "We build with modern technologies and test thoroughly for quality and performance." },
-      { title: "Launch", text: "We deploy to production, train your team and provide support so you keep succeeding." },
+      {
+        title: "Discovery",
+        text: "We analyse your business goals, audience and requirements to create a clear project roadmap.",
+      },
+      {
+        title: "Design",
+        text: "Wireframes and mockups bring your vision to life with an intuitive, engaging user experience.",
+      },
+      {
+        title: "Development",
+        text: "We build with modern technologies and test thoroughly for quality and performance.",
+      },
+      {
+        title: "Launch",
+        text: "We deploy to production, train your team and provide support so you keep succeeding.",
+      },
     ],
     cta: "Get a free quote",
     faqs: [
-      { q: "How long does it take to build a website?", a: "It depends on scope. A basic business website typically takes a few weeks, while e-commerce stores and custom applications take longer. We confirm a timeline after the initial consultation." },
-      { q: "Will my website show up on Google?", a: "We build every site with clean structure, fast loading, proper page titles and descriptions, and a sitemap, which gives search engines what they need. Rankings also depend on your content and competition, so we can add ongoing SEO if you want it." },
-      { q: "Can I update the website myself?", a: "Yes. We can connect a content management system so you can edit pages and publish posts without writing code." },
+      {
+        q: "How long does it take to build a website?",
+        a: "It depends on scope. A basic business website typically takes a few weeks, while e-commerce stores and custom applications take longer. We confirm a timeline after the initial consultation.",
+      },
+      {
+        q: "Will my website show up on Google?",
+        a: "We build every site with clean structure, fast loading, proper page titles and descriptions, and a sitemap, which gives search engines what they need. Rankings also depend on your content and competition, so we can add ongoing SEO if you want it.",
+      },
+      {
+        q: "Can I update the website myself?",
+        a: "Yes. We can connect a content management system so you can edit pages and publish posts without writing code.",
+      },
     ],
   },
   {
@@ -81,65 +114,131 @@ export const services: Service[] = [
     ],
     featuresTitle: "Core programmes",
     features: [
-      { title: "Web development bootcamps", text: "Front-end and back-end development with HTML, CSS, JavaScript, React, Node.js and modern frameworks." },
-      { title: "Digital marketing courses", text: "SEO, social media marketing, content strategy, email marketing and analytics to drive business growth." },
-      { title: "UI/UX design training", text: "Create clean interfaces and great user experiences using industry-standard design tools and principles." },
-      { title: "Data analytics programmes", text: "Data analysis, visualisation, SQL, Python and business intelligence tools for data-driven decisions." },
+      {
+        title: "Web development bootcamps",
+        text: "Front-end and back-end development with HTML, CSS, JavaScript, React, Node.js and modern frameworks.",
+      },
+      {
+        title: "Digital marketing courses",
+        text: "SEO, social media marketing, content strategy, email marketing and analytics to drive business growth.",
+      },
+      {
+        title: "UI/UX design training",
+        text: "Create clean interfaces and great user experiences using industry-standard design tools and principles.",
+      },
+      {
+        title: "Data analytics programmes",
+        text: "Data analysis, visualisation, SQL, Python and business intelligence tools for data-driven decisions.",
+      },
     ],
     processTitle: "How training works",
     process: [
-      { title: "Skills assessment", text: "We evaluate your current level and goals to recommend the right programme." },
-      { title: "Programme selection", text: "Choose from our programmes, with flexible schedules that fit your life." },
-      { title: "Interactive learning", text: "Hands-on projects, live coding sessions and group exercises guided by instructors." },
-      { title: "Certification and career support", text: "Earn your certificate and get portfolio guidance and job placement assistance." },
+      {
+        title: "Skills assessment",
+        text: "We evaluate your current level and goals to recommend the right programme.",
+      },
+      {
+        title: "Programme selection",
+        text: "Choose from our programmes, with flexible schedules that fit your life.",
+      },
+      {
+        title: "Interactive learning",
+        text: "Hands-on projects, live coding sessions and group exercises guided by instructors.",
+      },
+      {
+        title: "Certification and career support",
+        text: "Earn your certificate and get portfolio guidance and job placement assistance.",
+      },
     ],
     cta: "Enrol now",
     faqs: [
-      { q: "Who are the programmes for?", a: "Students, graduates, career changers, working professionals and organisations that want to upskill their teams. We also run programmes for schools." },
-      { q: "Do I need experience to join?", a: "No. We assess your level at the start and place you in the right programme." },
-      { q: "Do you offer training for schools?", a: "Yes. Our Digital Technology Programme is designed for secondary school students. Contact us for details." },
+      {
+        q: "Who are the programmes for?",
+        a: "Students, graduates, career changers, working professionals and organisations that want to upskill their teams. We also run programmes for schools.",
+      },
+      {
+        q: "Do I need experience to join?",
+        a: "No. We assess your level at the start and place you in the right programme.",
+      },
+      {
+        q: "Do you offer training for schools?",
+        a: "Yes. Our Digital Technology Programme is designed for secondary school students. Contact us for details.",
+      },
     ],
   },
   {
-    slug: "recruiting-placement",
-    title: "Job Recruiting & Placement",
+    slug: "printing-design",
+    title: "Printing & Design",
     short:
-      "We connect skilled professionals with employers through personalised matching, interview coaching and post-placement support.",
-    metaTitle: "Job Recruiting & Placement in Abuja",
+      "Professional printing and design services including brand identity, marketing materials, and custom print solutions that make your brand stand out.",
+    metaTitle: "Printing & Design Services in Abuja",
     metaDescription:
-      "Davin Media connects talented professionals with employers in Nigeria. Personalised job matching, interview coaching and placement support.",
+      "Davin Media delivers professional printing and design services in Nigeria. Brand identity, marketing materials, large format printing and custom packaging solutions.",
     intro:
-      "We bridge the gap between talented professionals and employers who need them.",
+      "We create compelling visual identities and deliver high-quality print materials that make lasting impressions.",
     overview: [
-      "Our recruiting and placement services make your job search or hiring process efficient and successful. We build relationships with employers and understand what companies look for and how to position candidates for success.",
-      "We take a personalised approach to every placement. We learn your skills, experience, career goals and culture-fit preferences, then match you to opportunities that support long-term growth.",
+      "Our printing and design services combine creativity with cutting-edge technology to deliver exceptional results. From business cards to billboards, we understand what makes a brand memorable and how to bring your vision to life.",
+      "We take a personalised approach to every project, working closely with you to understand your brand identity, target audience and marketing goals. Our dedicated team delivers print materials that not only look stunning but also effectively communicate your message.",
     ],
     benefits: [
-      "Employer network across industries",
-      "Personalised job matching based on skills and goals",
-      "Interview coaching and preparation",
-      "Salary negotiation guidance",
-      "Post-placement follow-up and career support",
+      "Professional brand identity and logo design",
+      "High-quality offset and digital printing",
+      "Fast turnaround times and reliable delivery",
+      "Custom design solutions tailored to your brand",
+      "Competitive pricing and flexible packages",
     ],
-    featuresTitle: "Recruitment specialisations",
+    featuresTitle: "Design & print specialisations",
     features: [
-      { title: "Tech recruitment", text: "Software developers, data scientists, IT professionals and technology specialists at all experience levels." },
-      { title: "Marketing roles", text: "Digital marketers, content creators, brand managers and marketing strategists for diverse industries." },
-      { title: "Entry to executive level", text: "From junior positions to senior leadership, we place professionals at every career stage." },
-      { title: "Contract and permanent roles", text: "Full-time, contract, contract-to-hire and project-based placements." },
+      {
+        title: "Brand identity design",
+        text: "Logo design, brand guidelines, visual identity systems and complete brand packages that reflect your business values.",
+      },
+      {
+        title: "Marketing materials",
+        text: "Brochures, flyers, posters, business cards, letterheads and promotional materials designed to captivate your audience.",
+      },
+      {
+        title: "Large format printing",
+        text: "Banners, billboards, vehicle wraps, trade show displays and outdoor signage that make bold statements.",
+      },
+      {
+        title: "Packaging & labels",
+        text: "Custom packaging design, product labels, stickers and specialty printing for retail and e-commerce businesses.",
+      },
     ],
-    processTitle: "How recruitment works",
+    processTitle: "How we work",
     process: [
-      { title: "Registration and profile assessment", text: "Submit your CV and complete a profile so we understand your skills and objectives." },
-      { title: "Job matching", text: "We identify suitable roles from our employer network that align with your goals." },
-      { title: "Interview preparation", text: "Coaching, CV optimisation and interview preparation to maximise your chances." },
-      { title: "Placement support", text: "We assist with offer negotiation and support a smooth start in your new role." },
+      {
+        title: "Consultation & concept",
+        text: "We discuss your vision, brand goals and project requirements to develop creative concepts that align with your objectives.",
+      },
+      {
+        title: "Design & development",
+        text: "Our design team creates mockups and prototypes, incorporating your feedback to refine the final design.",
+      },
+      {
+        title: "Approval & production",
+        text: "Once approved, we move to production using premium materials and professional printing techniques.",
+      },
+      {
+        title: "Delivery & support",
+        text: "We ensure timely delivery and provide ongoing support for reprints and additional materials as needed.",
+      },
     ],
-    cta: "Register now",
+    cta: "Get a quote",
     faqs: [
-      { q: "Does it cost anything to register as a candidate?", a: "Contact us for current terms. We will explain how our placement service works before you commit to anything." },
-      { q: "Can employers use you to hire?", a: "Yes. Tell us the role and requirements and we will source and shortlist suitable candidates." },
-      { q: "Which industries do you cover?", a: "We focus on technology and marketing roles, and we also work across other industries." },
+      {
+        q: "What file formats do you accept?",
+        a: "We accept PDF, AI, EPS, PSD and high-resolution JPG or PNG files. If you need design help, we can create the artwork for you.",
+      },
+      {
+        q: "Do you offer revisions?",
+        a: "Yes. We offer unlimited revisions during the design phase to ensure you're completely satisfied with the final product.",
+      },
+      {
+        q: "What is the turnaround time?",
+        a: "It depends on the project. Business cards and standard materials typically take a few days, while large format printing and custom packaging may take longer. We confirm timelines upfront.",
+      },
     ],
   },
   {
@@ -165,25 +264,59 @@ export const services: Service[] = [
     ],
     featuresTitle: "Our marketing services",
     features: [
-      { title: "SEO", text: "Improve search rankings and organic visibility with keyword research, content and technical optimisation." },
-      { title: "Social media marketing", text: "Build and engage your audience with compelling content, community management and targeted advertising." },
-      { title: "Content marketing", text: "Valuable content that attracts and retains your audience and builds authority in your industry." },
-      { title: "PPC advertising", text: "Drive immediate traffic and conversions with targeted campaigns on Google Ads and social platforms." },
+      {
+        title: "SEO",
+        text: "Improve search rankings and organic visibility with keyword research, content and technical optimisation.",
+      },
+      {
+        title: "Social media marketing",
+        text: "Build and engage your audience with compelling content, community management and targeted advertising.",
+      },
+      {
+        title: "Content marketing",
+        text: "Valuable content that attracts and retains your audience and builds authority in your industry.",
+      },
+      {
+        title: "PPC advertising",
+        text: "Drive immediate traffic and conversions with targeted campaigns on Google Ads and social platforms.",
+      },
     ],
     processTitle: "How we work",
     process: [
-      { title: "Audit and research", text: "We analyse your current marketing, competitors and audience to find opportunities." },
-      { title: "Strategy and campaign design", text: "A clear strategy with objectives, tactics and KPIs aligned to your business goals." },
-      { title: "Implementation and monitoring", text: "We run campaigns across the chosen channels and optimise as results come in." },
-      { title: "Analytics and reporting", text: "Detailed reports on performance and clear next steps to improve results." },
+      {
+        title: "Audit and research",
+        text: "We analyse your current marketing, competitors and audience to find opportunities.",
+      },
+      {
+        title: "Strategy and campaign design",
+        text: "A clear strategy with objectives, tactics and KPIs aligned to your business goals.",
+      },
+      {
+        title: "Implementation and monitoring",
+        text: "We run campaigns across the chosen channels and optimise as results come in.",
+      },
+      {
+        title: "Analytics and reporting",
+        text: "Detailed reports on performance and clear next steps to improve results.",
+      },
     ],
     cta: "Get a free consultation",
     faqs: [
-      { q: "How soon will I see results?", a: "Paid advertising can bring traffic quickly. SEO and content take longer to build, and we explain realistic timelines for your market upfront." },
-      { q: "Do you manage social media accounts?", a: "Yes. We can plan content, publish, manage the community and run paid campaigns." },
-      { q: "How do I know it is working?", a: "You receive regular reports with the numbers that matter to your goals, such as traffic, enquiries and sales." },
+      {
+        q: "How soon will I see results?",
+        a: "Paid advertising can bring traffic quickly. SEO and content take longer to build, and we explain realistic timelines for your market upfront.",
+      },
+      {
+        q: "Do you manage social media accounts?",
+        a: "Yes. We can plan content, publish, manage the community and run paid campaigns.",
+      },
+      {
+        q: "How do I know it is working?",
+        a: "You receive regular reports with the numbers that matter to your goals, such as traffic, enquiries and sales.",
+      },
     ],
   },
 ];
 
-export const getService = (slug: string) => services.find((s) => s.slug === slug);
+export const getService = (slug: string) =>
+  services.find((s) => s.slug === slug);
