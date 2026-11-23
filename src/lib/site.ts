@@ -47,10 +47,10 @@ export const site = {
 
 // CONFIRM: replace every value with a real, verifiable figure. The old site showed conflicting numbers.
 export const stats = [
-  { value: "[50]+", label: "Websites delivered" },
-  { value: "[70]+", label: "Professionals trained" },
-  { value: "[60]+", label: "Design projects delivered" },
-  { value: "[80]+", label: "Clients served" },
+  { value: "50+", label: "Websites delivered" },
+  { value: "70+", label: "Professionals trained" },
+  { value: "60+", label: "Design projects delivered" },
+  { value: "80+", label: "Clients served" },
 ];
 
 export const nav = [

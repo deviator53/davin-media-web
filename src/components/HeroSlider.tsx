@@ -53,12 +53,12 @@ export function HeroSlider() {
           >
             <div className="slide-inner">
               <div className="s1-copy">
-                <p className="eyebrow">Abuja, Nigeria · Digital studio</p>
+                <p className="eyebrow">Abuja, Nigeria ·</p>
                 <h1 className="h-display s1-h">
                   Building brands that <span className="accent">stand out</span>
                 </h1>
                 <p className="lead">
-                  Websites and apps, tech training, talent recruitment and
+                  Websites and apps, tech training, printing & design and
                   digital marketing from one team, built for businesses and
                   people who want to grow.
                 </p>
